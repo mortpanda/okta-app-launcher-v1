@@ -1,0 +1,71 @@
+@media (orientation: landscape) {
+    #landToolbar {
+        .p-dock {
+            position: fixed !important;
+            padding: 0px !important;
+
+            .p-dock-action {
+                height: 7vh;
+                padding: 0px !important;
+            }
+        }
+
+        .p-dock-list {
+            padding: 0px !important;
+        }
+
+        .p-dock-list-container {
+            display: block;
+            pointer-events: auto;
+            padding: 0px !important;
+        }
+
+        .p-dock {
+            .p-dock-item {
+                padding: 0px !important;
+            }
+        }
+    }
+
+    #landToolbar {
+        .p-dock {
+            .p-dock-action {
+                color: #FFFFFF !important;
+            }
+        }
+    }
+
+    #portToolBar {
+        display: none !important;
+    }
+}
+
+@media (orientation: portrait) {
+    #portToolBar {
+        .p-dock {
+            position: fixed !important;
+
+            .p-dock-action {
+                height: 7vh;
+            }
+        }
+
+        .p-dock {
+            .p-dock-item {
+                padding: 0px !important;
+            }
+        }
+    }
+
+    #portToolBar {
+        .p-dock {
+            .p-dock-action {
+                color: #FFFFFF !important;
+            }
+        }
+    }
+
+    #landToolbar {
+        display: none !important;
+    }
+}

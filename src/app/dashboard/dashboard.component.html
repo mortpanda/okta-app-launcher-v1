@@ -1,4 +1,8 @@
-<app-dock></app-dock>
-<div class="appMain">
-    <p>dashboard works!</p>
+<app-dock class="appDock"></app-dock>
+<div class="appMain" fxLayout="row wrap" fxLayoutAlign="center center">
+
+  <div>
+    <iframe [src]="strSafeSite" class="mainIframe"></iframe>
+  </div>
+    <div class="userName">{{strFullName}}</div>
 </div>

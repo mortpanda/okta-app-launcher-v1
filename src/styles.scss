@@ -59,6 +59,21 @@ body {
     color: #FFFFFF !important;
   }
 
+  .mainIframe {
+    width: 95vw !important;
+    height: 90vh !important;
+  }
+
+  .userName {
+    position: fixed !important;
+    bottom: 2% !important;
+    left: 2% !important;
+  }
+
+  .appMain {
+    padding: 1% !important;
+    color: #FFFFFF !important;
+  }
 }
 
 @media (orientation: landscape) {
@@ -79,25 +94,18 @@ body {
   .appMain {
     padding: 3% !important;
     color: #FFFFFF !important;
-    // border-style: solid;
   }
 
-    #toolBar {
-        .p-dock {
-            position: fixed !important;
+  .mainIframe {
+    width: 90vw !important;
+    height: 85vh !important;
+  }
 
-            .p-dock-action {
-                height: 7vh;
-            }
-        }
-
-        .p-dock {
-            .p-dock-item {
-                padding: 0px !important;
-            }
-        }
-    }
-
+  .userName {
+    position: fixed !important;
+    bottom: 2% !important;
+    left: 2% !important;
+  }
 }
 
 #okta-sign-in .button,
@@ -110,10 +118,4 @@ body {
 .okta-verify-authenticator {
   display: none !important;
 }
-#toolBar {
-    .p-dock {
-        .p-dock-action {
-            color: #FFFFFF !important;
-        }
-    }
-}
+
